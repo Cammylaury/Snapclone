@@ -13,6 +13,9 @@
 		26DCC553205584EF007587A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26DCC552205584EF007587A2 /* Assets.xcassets */; };
 		26DCC556205584EF007587A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26DCC554205584EF007587A2 /* LaunchScreen.storyboard */; };
 		26DCC55E20558526007587A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26DCC55D20558526007587A2 /* GoogleService-Info.plist */; };
+		26DCC560205590C9007587A2 /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DCC55F205590C9007587A2 /* SnapsViewController.swift */; };
+		26DCC562205592E5007587A2 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DCC561205592E5007587A2 /* ImageViewController.swift */; };
+		26DCC5642062D1B1007587A2 /* SelectPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DCC5632062D1B1007587A2 /* SelectPictureViewController.swift */; };
 		4806928C92E295CF68DFA1BD /* Pods_SnapClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEB4061671DBF0CBA44899E2 /* Pods_SnapClone.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +28,9 @@
 		26DCC555205584EF007587A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26DCC557205584EF007587A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26DCC55D20558526007587A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		26DCC55F205590C9007587A2 /* SnapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
+		26DCC561205592E5007587A2 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		26DCC5632062D1B1007587A2 /* SelectPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPictureViewController.swift; sourceTree = "<group>"; };
 		31F1B4692ACA95380C06D0CD /* Pods-SnapClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapClone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnapClone/Pods-SnapClone.debug.xcconfig"; sourceTree = "<group>"; };
 		BEB4061671DBF0CBA44899E2 /* Pods_SnapClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C437E6C0A70714B7F9DD6791 /* Pods-SnapClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapClone.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnapClone/Pods-SnapClone.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,7 +71,10 @@
 			children = (
 				26DCC54B205584EF007587A2 /* AppDelegate.swift */,
 				26DCC54D205584EF007587A2 /* LoginViewController.swift */,
+				26DCC55F205590C9007587A2 /* SnapsViewController.swift */,
+				26DCC5632062D1B1007587A2 /* SelectPictureViewController.swift */,
 				26DCC54F205584EF007587A2 /* Main.storyboard */,
+				26DCC561205592E5007587A2 /* ImageViewController.swift */,
 				26DCC552205584EF007587A2 /* Assets.xcassets */,
 				26DCC554205584EF007587A2 /* LaunchScreen.storyboard */,
 				26DCC557205584EF007587A2 /* Info.plist */,
@@ -227,6 +236,9 @@
 			files = (
 				26DCC54E205584EF007587A2 /* LoginViewController.swift in Sources */,
 				26DCC54C205584EF007587A2 /* AppDelegate.swift in Sources */,
+				26DCC562205592E5007587A2 /* ImageViewController.swift in Sources */,
+				26DCC5642062D1B1007587A2 /* SelectPictureViewController.swift in Sources */,
+				26DCC560205590C9007587A2 /* SnapsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

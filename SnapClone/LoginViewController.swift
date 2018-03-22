@@ -40,12 +40,11 @@ class LoginViewController: UIViewController {
                         self.presentAlart(alert: error.localizedDescription)
                     } else {
                         print("Sign Up Successful!")
+                        self.performSegue(withIdentifier: "goToSnaps", sender: nil)
                     }
                 })
             }
         }
-        
-        
     }
     
     func signIn() {
@@ -60,6 +59,7 @@ class LoginViewController: UIViewController {
                         self.presentAlart(alert: error.localizedDescription)
                     } else {
                         print("Sign In Successful!")
+                        self.performSegue(withIdentifier: "goToSnaps", sender: nil)
                     }
                 })
             }
